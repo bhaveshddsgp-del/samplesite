@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mixed Code Home Page</title>
+    <style>
+        /* Internal CSS */
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f9f9f9;
+            color: #333;
+        }
+
+        /* Navigation Bar */
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 15px 30px;
+        }
+
+        .navbar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            font-size: 1.5rem;
+            font-weight: bold;
+        }
+
+        .nav-links {
+            list-style: none;
+            display: flex;
+            gap: 20px;
+        }
+
+        .nav-links a {
+            color: #fff;
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+
+        .nav-links a:hover {
+            color: #ff9800;
+        }
+
+        /* Hero Section */
+        .hero {
+            background-color: #e0f7fa;
+            text-align: center;
+            padding: 100px 20px;
+        }
+
+        .hero h1 {
+            font-size: 3rem;
+            margin-bottom: 20px;
+        }
+
+        .hero p {
+            font-size: 1.2rem;
+            margin-bottom: 30px;
+        }
+
+        .btn {
+            background-color: #ff9800;
+            color: white;
+            padding: 10px 25px;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+            transition: background 0.3s ease;
+        }
+
+        .btn:hover {
+            background-color: #e68900;
+        }
+
+        /* Features Section */
+        .features {
+            display: flex;
+            justify-content: space-around;
+            padding: 50px 20px;
+            background-color: white;
+            flex-wrap: wrap;
+        }
+
+        .feature-box {
+            width: 30%;
+            min-width: 250px;
+            margin: 10px;
+            padding: 20px;
+            background-color: #f1f1f1;
+            text-align: center;
+            border-radius: 8px;
+        }
+
+        .feature-box h2 {
+            margin-bottom: 15px;
+        }
+
+        /* Footer */
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+        }
+
+    </style>
+</head>
+<body>
+
+    <header>
+        <nav class="navbar">
+            <div class="logo">MyWebsite</div>
+            <ul class="nav-links">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <h1>Welcome to MyWebsite</h1>
+        <p>Your go-to place for awesome content and services.</p>
+        <a href="#" class="btn">Learn More</a>
+    </section>
+
+    <section class="features">
+        <div class="feature-box">
+            <h2>Feature One</h2>
+            <p>Short description of the first feature.</p>
+        </div>
+        <div class="feature-box">
+            <h2>Feature Two</h2>
+            <p>Short description of the second feature.</p>
+        </div>
+        <div class="feature-box">
+            <h2>Feature Three</h2>
+            <p>Short description of the third feature.</p>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 MyWebsite. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
